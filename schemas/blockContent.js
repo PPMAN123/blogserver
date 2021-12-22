@@ -116,5 +116,8 @@ export default {
     {
       type: 'section',
     },
+    {
+      type: 'codeBlock'
+    }
   ],
 };

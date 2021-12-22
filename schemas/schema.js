@@ -11,6 +11,7 @@ import post from './post';
 import author from './author';
 import blockQuote from './blockquote';
 import section from './section';
+import codeBlock from './codeBlock';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -29,5 +30,6 @@ export default createSchema({
     blockQuote,
     blockContent,
     section,
+    codeBlock
   ]),
 });
