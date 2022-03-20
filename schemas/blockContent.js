@@ -117,7 +117,11 @@ export default {
       type: 'section',
     },
     {
-      type: 'codeBlock'
-    }
+      type: 'codeBlock',
+    },
+    {
+      type: 'reference',
+      to: [{ type: 'poll' }],
+    },
   ],
 };

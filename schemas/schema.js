@@ -12,6 +12,8 @@ import author from './author';
 import blockQuote from './blockquote';
 import section from './section';
 import codeBlock from './codeBlock';
+import poll from './poll';
+import pollCount from './pollCount';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -30,6 +32,8 @@ export default createSchema({
     blockQuote,
     blockContent,
     section,
-    codeBlock
+    codeBlock,
+    pollCount,
+    poll,
   ]),
 });
